@@ -23,7 +23,6 @@ jobs:
         with:
           artifacts: "app/build/outputs/apk/release/app-release.apk"
           token: ${{ secrets.TOKEN }}
-​
   publish:
     name: Publish To Github Packages
     runs-on: ubuntu-latest
