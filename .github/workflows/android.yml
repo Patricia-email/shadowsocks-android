@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - '*'
-​
+
 jobs:
   release:
     name: Github Release
